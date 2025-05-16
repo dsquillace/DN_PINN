@@ -1,5 +1,6 @@
 # INFORMAZIONI VARIE
 All'interno della cartella PINN è possibile trovare i codici utilizzati per la realizzazione di una rete neurale informata della fisica.
+
 Nella cartella Benchmark si trovano i codici utilizzati per identificare la migliore struttura neurale (Priva di informazioni fisiche) per prevedere il CP (ed il CL di conseguenza)
 
 # PINN
