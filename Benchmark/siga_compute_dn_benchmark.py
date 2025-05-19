@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import subprocess,shutil,random
-import math
+import math, os
 import matplotlib.path as mplPath
 
 ################################################
@@ -160,6 +160,11 @@ def get_neighbors(index, shape):
 ################################################
 ##################### MAIN #####################
 ################################################
+
+bp = '/path/to/naca/'
+fn = 'NACA0012_40.dat'
+
+fp = os.path.join(bp, fn)
 
 num_profiles = 1			# Numero di profili da generare
 n_points_dataset = 500			# Numero punti da prendere a random nel dominio
