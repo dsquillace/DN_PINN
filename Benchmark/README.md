@@ -29,9 +29,9 @@ La cartella grid_search contiene i tre codici python che permettono di valutare 
 Per compiere qualsiasi tipo di analisi è necessario avere due set di dati nella cartella di lavoro; "filtered_dataset.txt" il quale viene utilizzato per training e validation della rete neurale e "test_data.txt" contenente i dati con i quali ogni rete creata valuta l'MSE finale e quindi le prestazioni della rete stessa.
 
 > "batchVSmse_nn_train.py": Valuta il variare dell'MSE al variare del batch_size. Viene effettuato con valori di Learning Rate, Weight Decay, numero di neuroni e layer fissati.
->
+
 > "wdVSlr_nn_train.py": Fissato il batch_size ottimale trovato prima, valuta il variare dell'MSE per ogni combinazione di 10 diversi valori di Weight Decay e 10 di Learning Rate. Inoltre è possibile scegliere di impostare una metodologia di riduzione del Learning Rate a sceltra tra: Valore Fisso, Step Decay, Cosine Decay e Cosine Decay with Warm Restart.
->
+
 > "lVSn_nn_train.py": Fissato il batch_size, WD e LR migliori individuati precedentemente, permette di valutare l'MSE di 100 diverse reti neurali definite da un numero di Layer e Neuroni per layer variabile.
 
 # PLOT
